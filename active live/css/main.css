@@ -1,0 +1,521 @@
+/*---Specification---*/
+
+body {
+	font: 400 14px 'Open Sans', sans-serif;
+	color: #6c7279;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h3, h4, h5 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 36px;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 28px;
+	color: #000;
+}
+
+h4 {
+	font-size: 22px;
+	color: #000;
+}
+
+h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:active, a:focus, button:focus, button {
+	transition: all .4s ease;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*Style Section Header*/
+
+.header {
+	padding: 30px 0 240px;
+	background: #35353f url('../img/first-bg — копия.jpg')  no-repeat center center / cover;
+	color: #fff;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 0;
+}
+
+.logo span {	
+	font-weight: 700;
+	color: #626fe4;
+	margin-right: -8px;
+}
+
+.logo:hover {
+	color: inherit;
+}
+
+.menu__item {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.menu li a {
+	padding: 0 30px 39px;
+	border-bottom: 3px solid transparent;
+}
+
+.menu li:last-child a {
+	padding-right: 0;
+}
+
+.menu li a:hover {
+	color: #fff;
+	border-bottom: 3px solid rgba(156, 166, 175, 0.70);
+}
+
+.offer {
+	margin-top: 31px;
+	padding-top: 176px;
+	border-top: 1px solid rgba(203, 203, 223, 0.5);
+	text-align: center;
+}
+
+.offer__text {
+	margin: 36px 0 28px;
+	font-size: 22px;
+	line-height: 1.5em;
+}
+
+.btn {
+	background: #e84545;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 47px;
+	padding: 0 7px;
+	color: #fff;
+}
+
+.offer__btn {
+	max-width: 200px;
+	width: 100%;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #e84545;
+}
+
+/*Style Section Features*/
+
+.features {
+	padding: 120px 0 0 0;
+}
+
+.feature {
+	margin: 0 auto 73px auto;
+	text-align: center;
+	max-width: 330px;
+}
+
+.feature__img {
+	height: 63px;
+}
+
+.feature__title {
+	margin: 28px 0 18px;
+	color: #000;
+}
+
+.feature__text {
+	max-width: 300px;
+	line-height: 1.5em;
+}
+
+/*Style Section Projects*/
+
+.projects {
+	padding: 52px 0 102px;
+}
+
+.project__overlay {
+	background: rgba(255, 36, 36, 0.91);
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+	margin: 0 auto 26px;
+	position: relative;
+	max-width: 263px;
+}
+
+.project__title, .project__link {
+	color: #fff;
+}
+
+.project:hover .project__overlay {
+	opacity: 1;
+}
+
+/*Style Section Staff-List*/
+
+.staff-list {
+	padding: 125px 0 118px;
+	background: #f1f2fd;
+}
+
+.staff__position {
+	text-transform: uppercase;
+	color: #e84545;
+	font-size: 13px;
+}
+
+.staff__name {
+	margin: 26px 0 6px;
+}
+
+.staff__desk {
+	margin: 22px 0 27px;
+	line-height: 1.5em;
+}
+
+.staff__photo {
+	max-width: 100%;
+}
+
+.social__item a {
+	display: block;
+	margin-right: 3px;
+	width: 38px;
+	height: 38px;
+	border: 1px solid #e8ecee;
+	background: #fff;
+	line-height: 38px;
+	text-align: center;
+}
+
+.fa {
+	color: #c6cacc;
+	font-size: 18px;
+}
+
+/*Style Section Quote*/
+
+.woman {
+	background: url(../img/blonde.jpg) no-repeat right top / cover;
+	height: 500px;
+}
+
+.quote-text {
+	background-color: #53354a;
+	color: #fff;
+	padding: 130px 72px 145px 72px;
+	width: 100%;
+	margin: 0;
+}
+
+.quote-text__title {
+	margin-bottom: 23px;
+	max-width: 500px;
+	line-height: 1.2em;
+}
+
+.quote-text__author {
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+/*Style Section Start*/
+
+.start {
+	padding: 94px 0 100px;
+	text-align: center;
+}
+
+.download-subtitle {
+	margin: 10px 0 37px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.download__btn {
+	max-width: 280px;
+	width: 100%;
+}
+
+/*Style Section Footer*/
+
+.footer {
+	padding: 82px 0;
+	background: #3a3e64;
+	border-bottom: 13px solid rgb(49, 52, 83);
+}
+
+.footer-content {
+	color: #adaebb;
+	margin: 0 auto;
+}
+
+.footer-content_location {
+	max-width: 150px;
+	width: 100%;
+}
+
+.footer-content_share {
+	max-width: 312px;
+	width: 100%;
+	color: inherit;
+}
+
+.footer-content__title {
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.footer-content__white {
+	color: #fff;
+}
+
+.footer-content__red {
+	color: red;
+}
+
+.footer-content_about {
+	max-width: 332px;
+	width: 100%;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1199.98px) {
+	.project {
+		margin-bottom: 35px;
+	}	
+
+	.woman {
+		height: 350px;
+	}
+
+	.quote-text {
+		padding: 55px 72px 71px 72px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 991.98px) {	
+	.header {
+		padding-bottom: 150px;
+	}
+
+	.logo {
+		margin: 0 auto;
+	}
+
+	.menu {
+		margin-top: 30px;
+	}
+
+	.offer {
+		padding-top: 100px;
+	}
+
+	.menu li a {
+		padding: 0 30px 29px 30px;
+	}
+
+	.menu li:last-child a {
+    	padding-right: 0;
+	}
+
+	.staff {
+		margin-bottom: 35px;
+	}
+
+	.quote-text {
+		padding: 59px 55px 80px 55px;
+	}
+
+	.staff-list {
+    	padding: 70px 0 60px;
+	}
+
+	.projects {
+		padding: 40px 0;
+	}
+
+	.footer-content {
+		margin-top: 30px;
+	}
+
+	.footer {
+		padding: 60px 0;
+	}
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+	.header {
+		padding-bottom: 116px;
+	}
+
+	h1 {
+		font-size: 38px;
+	}
+
+	.offer__text {
+		font-size: 19px;
+	}
+
+	.feature__text {
+   		max-width: 270px;
+	}
+
+	.project {
+		margin: 0 10px 30px auto;
+	}
+	
+	.staff {
+		justify-content: center;
+	}
+
+	.staff-list {
+   		padding: 60px 0 80px;
+	}
+
+	h2 {
+		font-size: 29px;
+	}
+
+	.woman {
+    	height: 355px;
+	}
+
+	.footer {
+		padding: 60px 0;
+	}
+}
+
+@media screen and (max-width: 575.98px) {
+
+	.header {
+		padding-bottom: 85px;
+	}
+
+	.offer {
+    	margin-top: 20px;
+    	padding-top: 80px;
+	}
+
+	.offer__text {
+		font-size: 17px;
+	}
+
+	.project {
+		margin: 15px auto;
+	}
+
+	.woman {
+    	height: 250px;
+	}
+
+	.quote-text {
+		padding: 40px 55px;
+	}
+
+	.staff-list {
+    	padding: 20px 0 60px;
+	}
+
+	.start {
+		padding: 75px 0;
+	}
+
+	.projects {
+    	padding: 20px 0 60px;
+	}
+
+	.download-subtitle {
+    	margin: 22px 0 37px;
+	}
+
+	.feature {
+		margin-bottom: 60px;
+	}
+
+	.feature__text {
+		margin: 0 auto;
+	}
+
+	.features {
+		padding-top: 80px;
+	}
+
+	.footer {
+		padding: 60px 0;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 21px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+}
+
